@@ -18,7 +18,7 @@ module.exports = {
         unique: true,
         type: Sequelize.STRING
       },
-      avater: {
+      avatar: {
         allowNull: false,
         type: Sequelize.STRING
       },
