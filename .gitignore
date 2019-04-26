@@ -1,3 +1,5 @@
 node_modules
 .vscode
+
+# pasta com as fotos dos usuários
 tmp/uploads/*
