@@ -3,6 +3,7 @@ const session = require('express-session')
 const LokiStore = require('connect-loki')(session)
 const nunjucks = require('nunjucks')
 const path = require('path')
+const flash = require('connect-flash')
 // path é uma biblioteca que vem já configurada no node
 // Ele server para lidar com caminhos no servidor
 // No windows a barra é contrária, por isso é interessante utilizar o path
@@ -21,6 +22,7 @@ class App {
 
   middlewares () {
     this.express.use(express.urlencoded({ extended: false }))
+    this.express.use(flash())
     this.express.use(
       session({
         name: 'root',
