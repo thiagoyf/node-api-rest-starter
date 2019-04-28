@@ -2,8 +2,8 @@
 
 It is a project that is configured to start building a node api with:
 * **Express**
-* **Nodemon**(for development environment)
-* **eslint**(Configured for node, and javascript pattern standard)
+* **Nodemon** (for development environment)
+* **eslint** (Configured for node, and javascript pattern standard)
 * **editorconfig**
 
 ## Starting the project
