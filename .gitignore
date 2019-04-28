@@ -1,6 +1,2 @@
 node_modules
 .vscode
-
-# pasta com as fotos dos usuários
-tmp/uploads/*
-tmp/sessions.db
